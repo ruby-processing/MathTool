@@ -36,6 +36,6 @@ public class MathToolLibrary implements Library{
      */
     @Override
     public void load(final Ruby runtime, boolean wrap) throws IOException {
-        load(final time);
+        load(runtime);
     }  
 }
