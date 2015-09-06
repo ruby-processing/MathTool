@@ -8,3 +8,6 @@ Initially these methods were provided in pure ruby however I was unhappy with us
 variations on the original `map`. It is expected that creating JRuby extensions will be more efficient, and in any event calculated values will be passed back to java methods and the jvm should be able to sort it out.
 
 There is a need to create example JRuby extensions to promote their usage (although I'm not entirely using maven will help this goal, and sticking with my tried and tested Library vs LibraryService for now).
+
+## Work in progress
+Currently the widely used method of creating JRuby extensions it to use rake-compiler, there is a initiative afoot to convert to a maven build, this is an early stage pass at doing that for MathTool (a subset of rpextras.jar built into ruby-processing and JRubyArt).
