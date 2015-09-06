@@ -10,4 +10,4 @@ variations on the original `map`. It is expected that creating JRuby extensions 
 There is a need to create example JRuby extensions to promote their usage (although I'm not entirely using maven will help this goal, and sticking with my tried and tested Library vs LibraryService for now).
 
 ## Work in progress
-Currently the widely used method of creating JRuby extensions it to use rake-compiler, there is a initiative afoot to convert to a maven build, this is an early stage pass at doing that for MathTool (a subset of rpextras.jar built into ruby-processing and JRubyArt).
+Currently the widely used method of creating JRuby extensions it to use rake-compiler, there is a initiative afoot to convert to a maven build, this is an early stage pass at doing that for MathTool (a subset of rpextras.jar built into ruby-processing and JRubyArt). However for a variety of reasons JRubyArt and ruby-processing may not be ideal examples, since version control is completely within the hands of the developer, which may not always be the case. Further we do not provide the main java jars (jruby-complete and processing jars, in the gem, actually this is probably a good thing).
