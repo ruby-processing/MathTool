@@ -1,8 +1,7 @@
-require_relative '../../lib/rpextras'
+require_relative '../../rpextras/target/rpextras-1.0-SNAPSHOT'
 
 Java::Monkstone::MathToolLibrary.load(JRuby.runtime)
 
-include Processing::HelperMethods
 include Processing::MathTool
 
 EPSILON ||= 1.0e-04
