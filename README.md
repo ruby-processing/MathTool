@@ -1,5 +1,5 @@
 # MathTool
-Provides an example of creating a JRuby Extension
+Provides an example of creating an independent JRuby Extension.  
 
 ## Motivation
 Both ruby-processing and JRubyArt should provide math convenience methods of vanilla processing, that are not otherwise available for ruby. One of the more useful convenience methods is processings `map` method (there could be hardly less welcome name for ruby) which maps a value from source range to a target range. This as with many other methods are provided as a static PApplet method, which makes it good ruby module candidate (ruby-processing originally patched through many PApplet class methods as instance methods, some of which were better provide in ruby). 
