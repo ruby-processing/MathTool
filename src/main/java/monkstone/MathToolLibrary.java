@@ -25,7 +25,7 @@ public class MathToolLibrary implements Library{
     * @param runtime
     */
     public static void load(final Ruby runtime) {
-        MathTool.createMathTool(runtime);
+        MathToolModule.createMathToolModule(runtime);
     }
     
     /**
